@@ -1,0 +1,74 @@
+﻿body {
+    /*background-color: black;*/
+    background-image: url(images/SamCoffeeLake_file_138270935.gif);
+    background-size: 100%;
+}
+
+h6 {
+    color: gray
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white
+}
+
+p {
+    font-family: monospace, 'Monaco';
+    color: white
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    border-color: gray
+}
+
+img {
+    float: right;
+    width: 50%
+}
+
+button {
+    background-color: #cccccc; /* Green */
+    border-radius: 20px;
+    border-color: #cccccc00;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    display: block;
+    margin: auto;
+
+    /*transition-duration: 0.4s;*/
+}
+
+button:hover {
+    background-color: #a8a8a8
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+/* selected link */
+a:active {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>sas page</title>
+    <style>
+        #rcorners1 {
+            border-radius: 25px;
+            background: #333333;
+            padding: 30px; 
+            width: 200px;
+            height: 150px;  
+        }
+    </style>
+    <script type="text/javascript">
+        ImageArray = new Array();
+        ImageArray[0] = '20231114213103_1.jpg';
+        ImageArray[1] = 'scott-scottpilgrim.gif';
+        ImageArray[2] = 'Screenshot.2024-06-12.204700.png';
+        ImageArray[3] = 'sticker.gif';
+        ImageArray[4] = '1706537180_new_MtntSnffMlt.gif';
+        ImageArray[5] = 'c8fdc4fde48a39c9dc9362adc2027e5f.gif';
+    
+    function getRandomImage() {
+        var num = Math.floor( Math.random() * ImageArray.length);
+        var img = ImageArray[num];
+        document.getElementById("randImage").innerHTML = ('<img src="' + 'images/random/' + img + '" width="250px">')
+    }
+
+    </script>
+</head>
+
+<h6>Testpage</h6>
+
+<body onload="getRandomImage()">
+    <!-- <div id="randImage"></div> -->
+    <br>
+    <div><h2><button><a href="https://discord.gg/qSEMDzZCJ4">Discord</a></button></h2>
+    <h2><button><a href="files\mods1.16.5.zip">1.16.5 modpack</a></button></h2></div>
+    <br>
+
+</body>
