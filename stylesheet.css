@@ -1,7 +1,9 @@
 ﻿body {
     /*background-color: black;*/
-    background-image: url(images/SamCoffeeLake_file_138270935.gif);
-    background-size: 100%;
+    background-image: url(images/full-moon.jpg);
+    background-position: inherit;
+
+    background-size: 25%;
 }
 
 h6 {
@@ -25,15 +27,17 @@ p {
 
 img {
     float: right;
-    width: 50%
+    width: 40%
 }
 
 button {
+    font: 100;
+
     background-color: #cccccc; /* Green */
-    border-radius: 20px;
+    border-radius: 30px;
     border-color: #cccccc00;
     color: white;
-    padding: 10px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -46,7 +50,13 @@ button {
 }
 
 button:hover {
+    /* border-radius: 40px; */
+    /* padding: 15px 40px; */
     background-color: #a8a8a8
+}
+
+button:active {
+    width: auto;
 }
 
 /* unvisited link */
